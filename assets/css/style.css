@@ -6,6 +6,7 @@ body {
     width: 700px;
     height: 900px;
     background-color: rgb(38, 84, 124);
+    overflow: hideen;
 }
 
 .container {
@@ -15,3 +16,34 @@ body {
     padding: 50px;
 }
 
+.one {
+    width: 40%;
+    height: 25%;
+    background-color: #EF476F;
+}
+
+.two {
+    width: 30%;
+    height: 20%;
+    background-color: #FFD166;
+    float: right;
+}
+
+.one, .two {
+    display: inline-block;
+    margin: 20px 50px 40px;
+}
+
+.three {
+    width: 91%;
+    height: 30%;
+    background-color: #92DCE5;
+    margin: 0 auto 75px;
+}
+
+.four {
+    width: 85%;
+    height: 20%;
+    background-color: #91A6FF;
+    margin: 10px auto;
+}
