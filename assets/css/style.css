@@ -20,6 +20,7 @@ body {
     width: 40%;
     height: 25%;
     background-color: #EF476F;
+    transform: rotate(0.5deg)
 }
 
 .two {
@@ -27,6 +28,7 @@ body {
     height: 20%;
     background-color: #FFD166;
     float: right;
+    transform: rotate(0.7deg)
 }
 
 .one, .two {
@@ -39,6 +41,7 @@ body {
     height: 30%;
     background-color: #92DCE5;
     margin: 0 auto 75px;
+    transform: rotate(-1deg)
 }
 
 .four {
@@ -46,4 +49,5 @@ body {
     height: 20%;
     background-color: #91A6FF;
     margin: 10px auto;
+    transform: rotate(4deg)
 }
