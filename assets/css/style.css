@@ -1,0 +1,17 @@
+body {
+    background-color:rgb(19, 18, 0);
+}
+
+.canvas {
+    width: 700px;
+    height: 900px;
+    background-color: rgb(38, 84, 124);
+}
+
+.container {
+    border: 50px solid rgb(66, 12, 2);
+    width: 700px;
+    margin: 20px auto;
+    padding: 50px;
+}
+
