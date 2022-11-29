@@ -6,7 +6,9 @@ body {
     width: 700px;
     height: 900px;
     background-color: rgb(38, 84, 124);
-    overflow: hideen;
+    overflow: hidden;
+    filter: blur(1px);
+
 }
 
 .container {
@@ -20,28 +22,36 @@ body {
     width: 40%;
     height: 25%;
     background-color: #EF476F;
-    transform: rotate(0.5deg)
+    transform: rotate(0.5deg);
+    box-shadow: 0 0 3px 3px #EF476F;
+    border-radius: 8px 10px;
 }
 
 .two {
-    width: 30%;
+    width: 31%;
     height: 20%;
     background-color: #FFD166;
     float: right;
-    transform: rotate(0.7deg)
+    transform: rotate(-0.7deg);
+    box-shadow: 0 0 3px 3px #FFD166;
+    border-radius: 6px 8px;
 }
 
 .one, .two {
     display: inline-block;
     margin: 20px 50px 40px;
+    filter: blur(2px);
 }
 
 .three {
     width: 91%;
     height: 30%;
     background-color: #92DCE5;
-    margin: 0 auto 75px;
-    transform: rotate(-1deg)
+    margin: 0 auto 90px;
+    transform: rotate(-1deg);
+    filter: blur(2px);
+    box-shadow: 0 0 4px 4px #92DCE5;
+    border-radius: 5px 60px 10px 12px
 }
 
 .four {
@@ -49,5 +59,8 @@ body {
     height: 20%;
     background-color: #91A6FF;
     margin: 10px auto;
-    transform: rotate(4deg)
+    transform: rotate(8deg);
+    filter: blur(1px);
+    box-shadow: 0 0 5px 5px #91A6FF;
+    border-radius: 5px 12px 5px 60px;
 }
