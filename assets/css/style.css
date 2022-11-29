@@ -1,66 +1,66 @@
 body {
-    background-color:rgb(19, 18, 0);
+  background-color: rgb(19, 18, 0);
 }
 
 .canvas {
-    width: 700px;
-    height: 900px;
-    background-color: rgb(38, 84, 124);
-    overflow: hidden;
-    filter: blur(1px);
-
+  width: 700px;
+  height: 900px;
+  background-color: rgb(38, 84, 124);
+  overflow: hidden;
+  filter: blur(1px);
 }
 
 .container {
-    border: 50px solid rgb(66, 12, 2);
-    width: 700px;
-    margin: 20px auto;
-    padding: 50px;
+  border: 50px solid rgb(66, 12, 2);
+  width: 700px;
+  margin: 20px auto;
+  padding: 50px;
 }
 
 .one {
-    width: 40%;
-    height: 25%;
-    background-color: #EF476F;
-    transform: rotate(0.5deg);
-    box-shadow: 0 0 3px 3px #EF476F;
-    border-radius: 8px 10px;
+  width: 40%;
+  height: 25%;
+  background-color: #ef476f;
+  transform: rotate(0.5deg);
+  box-shadow: 0 0 3px 3px #ef476f;
+  border-radius: 8px 10px;
 }
 
 .two {
-    width: 31%;
-    height: 20%;
-    background-color: #FFD166;
-    float: right;
-    transform: rotate(-0.7deg);
-    box-shadow: 0 0 3px 3px #FFD166;
-    border-radius: 6px 8px;
+  width: 31%;
+  height: 20%;
+  background-color: #ffd166;
+  float: right;
+  transform: rotate(-0.7deg);
+  box-shadow: 0 0 3px 3px #ffd166;
+  border-radius: 6px 8px;
 }
 
-.one, .two {
-    display: inline-block;
-    margin: 20px 50px 40px;
-    filter: blur(2px);
+.one,
+.two {
+  display: inline-block;
+  margin: 20px 50px 40px;
+  filter: blur(2px);
 }
 
 .three {
-    width: 91%;
-    height: 30%;
-    background-color: #92DCE5;
-    margin: 0 auto 90px;
-    transform: rotate(-1deg);
-    filter: blur(2px);
-    box-shadow: 0 0 4px 4px #92DCE5;
-    border-radius: 5px 60px 10px 12px
+  width: 91%;
+  height: 30%;
+  background-color: #92dce5;
+  margin: 0 auto 90px;
+  transform: rotate(-1deg);
+  filter: blur(2px);
+  box-shadow: 0 0 4px 4px #92dce5;
+  border-radius: 5px 60px 10px 12px;
 }
 
 .four {
-    width: 85%;
-    height: 20%;
-    background-color: #91A6FF;
-    margin: 10px auto;
-    transform: rotate(8deg);
-    filter: blur(1px);
-    box-shadow: 0 0 5px 5px #91A6FF;
-    border-radius: 5px 12px 5px 60px;
+  width: 85%;
+  height: 20%;
+  background-color: #91a6ff;
+  margin: 10px auto;
+  transform: rotate(8deg);
+  filter: blur(1px);
+  box-shadow: 0 0 5px 5px #91a6ff;
+  border-radius: 5px 12px 5px 60px;
 }
